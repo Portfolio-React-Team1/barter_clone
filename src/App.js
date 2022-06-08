@@ -1,6 +1,6 @@
 import './App.css'
 import Landing from '../src/pages/landing_page/Landing'
-import Signup from '../src/pages/Create_account/Signup'
+import Signup from '../src/pages/Create_account/SignUp'
 import Login from '../src/pages/Login/Login'
 import Ambassador from '../src/pages/student_ambassador/Ambassador'
 import Logo from '../src/assets/images/logo.png'
