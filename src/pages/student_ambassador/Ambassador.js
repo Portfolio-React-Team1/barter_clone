@@ -6,6 +6,8 @@ import Ambas2 from '../../assets/images/ambassador-2.png';
 import Ambas3 from '../../assets/images/ambassador-3.png';
 import Ambas4 from '../../assets/images/ambassador-4.png';
 import Ambas5 from '../../assets/images/ambassador-5.png';
+import Navbar from '../../components/AmbassadorNavbar/Navbar';
+import Footer from '../../components/Footer/Footer';
 
 console.log(Ambas1);
 
@@ -18,6 +20,7 @@ const Ambassador = () => {
 
   return (
     <>
+    <Navbar />
     <main id='hero'>
         <section className='hero-left'>
         <h1>Earn up to <span>$1500</span> as a Barter ambassador.</h1>
@@ -38,6 +41,7 @@ const Ambassador = () => {
         <h2>What is the Barter ambassador program?</h2>
         <p>The <span className='barter-text'>Barter</span> Student Ambassador Program is an exclusive community of young, smart, and influential students in some of the leading universities across the world such as Princeton University, University of Cape Town, Ashesi University, University of Nairobi, University of Lagos, and Kwame Nkrumah University of Science and Technology, among others.</p>
     </section>
+    <Footer />
     </>
   )
 }
