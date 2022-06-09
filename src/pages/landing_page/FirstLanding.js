@@ -48,7 +48,7 @@ const H1Style = {
   height: "100px",
 };
 const PStyle = {
-  fontSize: "40px",
+  fontSize: "30px",
   width: "100%",
   height: "120px",
   textAlign: "center",
@@ -64,11 +64,17 @@ const CardStyle = {
   color: "#1d222c",
   margin: "auto",
   gap: "50px",
+  padding: "0",
 };
 const Cards = {
   width: "100%",
   height: "100vh",
   backgroundImage: `url(${background})`,
+  backgroundRepeat: "no-repeat",
+  backgroundSize: "100% 160%",
+  backgroundRepeat: "no-repeat",
+  padding: "0",
+  backgroundColor: "#fdefd8",
 };
 
 const Buttons = {
