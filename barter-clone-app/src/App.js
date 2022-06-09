@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import "./App.css";
-import FirstLanding from "./pages/landing_page/FirstLanding";
+import FirstLanding from "../../src/pages/landing_page/FirstLanding";
 
 function App() {
   return (
