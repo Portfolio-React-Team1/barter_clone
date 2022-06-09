@@ -82,9 +82,13 @@
 
 
 @media only screen and (max-width: 600px) {
-    .landing__apps a{
-        padding: 10px 15px;
+       .landing__apps a{
+        padding: 10px 20px;
+        font-size: 20px;
+        white-space: nowrap;
+        margin: 5px;
     }
+    
     .landingText__container{
         height: 140%;
     }
