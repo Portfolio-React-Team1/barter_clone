@@ -7,61 +7,56 @@ import Ambas9 from "../../assets/images/ambassador-9.png";
 
 function Programdesc() {
   return (
-    <div className="section-four">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-6 wider ">
-            <h3 className="heading"> What's in it for you?</h3>
-            <p className="paragraph">
-              {" "}
-              By joining the Barter Ambassador, you will be able to:
-            </p>
-            <ul className="list">
-              <li>
-                Enhance your professional development, leadership, technical and
-                communication skills.
-              </li>
-              <li>
-                Access internship opportunities with Flutterwave or any of our
-                clients who need interns.
-              </li>
-              <li>Access mentorship by experts from Flutterwave.</li>
-              <li>Obtain a certificate of recognition.</li>
-              <li>
-                Participate in special Flutterwave events and product trainings.
-              </li>
-              <li>
-                Incorporate your own ideas and support in a creative
-                environment.
-              </li>
-              <li>Earn money while in school.</li>
-            </ul>
+    <div className="section-content row">
+      <div className=" col section-content column wider ">
+        <h3 className="heading"> What's in it for you?</h3>
+        <p className="paragraph">
+          {" "}
+          By joining the Barter Ambassador, you will be able to:
+        </p>
+        <ul className="list">
+          <li>
+            Enhance your professional development, leadership, technical and
+            communication skills.
+          </li>
+          <li>
+            Access internship opportunities with Flutterwave or any of our
+            clients who need interns.
+          </li>
+          <li>Access mentorship by experts from Flutterwave.</li>
+          <li>Obtain a certificate of recognition.</li>
+          <li>
+            Participate in special Flutterwave events and product trainings.
+          </li>
+          <li>
+            Incorporate your own ideas and support in a creative environment.
+          </li>
+          <li>Earn money while in school.</li>
+        </ul>
+      </div>
+      <div className=" section-content col-md-6 small">
+        <div className="figures">
+          <div className=" figure fig--1">
+            <div className="figure-box"></div>
           </div>
-          <div className="col-md-6 small">
-            <div className="figures">
-              <div className=" figure fig--1">
-                <div className="figure-box"></div>
-              </div>
-              <div className="figure fig--2">
-                <img className="image" alt="ambassador" src={Ambas6}></img>
-              </div>
-            </div>
-            <div className="figures">
-              <div className="figure fig--3">
-                <img className="image" alt="ambassador" src={Ambas8}></img>
-              </div>
-              <div className="figure fig--4">
-                <img className="image" alt="ambassador" src={Ambas7}></img>
-              </div>
-            </div>
-            <div className="figures">
-              <div className="figure fig--5">
-                <img className="image" alt="ambassador" src={Ambas9}></img>
-              </div>
-              <div className=" figure fig--6">
-                <div className="figure-box"></div>
-              </div>
-            </div>
+          <div className="figure fig--2">
+            <img className="image" alt="ambassador" src={Ambas6}></img>
+          </div>
+        </div>
+        <div className="figures">
+          <div className="figure fig--3">
+            <img className="image" alt="ambassador" src={Ambas8}></img>
+          </div>
+          <div className="figure fig--4">
+            <img className="image" alt="ambassador" src={Ambas7}></img>
+          </div>
+        </div>
+        <div className="figures">
+          <div className="figure fig--5">
+            <img className="image" alt="ambassador" src={Ambas9}></img>
+          </div>
+          <div className=" figure fig--6">
+            <div className="figure-box"></div>
           </div>
         </div>
       </div>
