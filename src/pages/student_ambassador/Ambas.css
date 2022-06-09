@@ -6,11 +6,12 @@
 }
 
 /* main section */
-#hero {
-  margin: 2em 0.5em 0 2em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+#hero{
+    margin: 2em 0.5em 0 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 100px;
 }
 
 .hero-left {
