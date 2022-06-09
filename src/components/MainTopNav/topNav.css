@@ -1,7 +1,9 @@
 .topNav{
+    position: relative;
     background-color: #f5a623;;
     padding: 15px 20px;
     text-align: center;
+    z-index: 4;
 }
 .topNav span{
     text-decoration: underline;

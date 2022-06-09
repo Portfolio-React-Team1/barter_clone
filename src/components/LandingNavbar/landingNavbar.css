@@ -6,7 +6,7 @@
     height: 100%;
     background-color: #fff;
     overflow: hidden;
-    z-index: 7;
+    z-index: 999999999;
 }
 .barter{
     font-size: 18px;
@@ -62,7 +62,7 @@ nav a{
     top: 20px;
 }
 .nav__linksMobile{
-    font-size: 18px;
+    font-size: 22px;
 }
 
 
