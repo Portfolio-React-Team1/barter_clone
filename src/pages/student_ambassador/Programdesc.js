@@ -7,8 +7,8 @@ import Ambas9 from "../../assets/images/ambassador-9.png";
 
 function Programdesc() {
   return (
-    <div className="section-content row">
-      <div className=" col section-content column wider ">
+    <div className="row section-content">
+      <div className=" col section-content-column wider ">
         <h3 className="heading"> What's in it for you?</h3>
         <p className="paragraph">
           {" "}
@@ -34,7 +34,7 @@ function Programdesc() {
           <li>Earn money while in school.</li>
         </ul>
       </div>
-      <div className=" section-content col-md-6 small">
+      <div className=" col section-content-column small">
         <div className="figures">
           <div className=" figure fig--1">
             <div className="figure-box"></div>
