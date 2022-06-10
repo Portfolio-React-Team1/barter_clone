@@ -13,22 +13,25 @@
 
 /* for mobile */
 
-@media only screen and (max-width: 351px) {
+@media only screen and (min-width: 201px) {
     .landingPage__container{
-        top: 90px;
-        height: 130%;
+        top: 100px;
+        height: 140%;
     }
     
 }
+
 @media only screen and (min-width: 351px) {
     .landingPage__container{
         top: 80px;
+        height: 120%;
     }
 }
 
 @media only screen and (min-width: 385px) {
     .landingPage__container{
         top: 75px;
+        height: 120%;
     }
     
 }
@@ -36,12 +39,14 @@
 @media only screen and (min-width: 570px) {
     .landingPage__container{
         top: 50px;
+        height: 110%;
     }
     
 }
 @media only screen and (min-width: 1000px) {
     .landingPage__container{
         top: 40px;
+        height: 100%;
     }
     
 }
@@ -52,6 +57,8 @@
     }
     
 }
+
+
 
 
 
