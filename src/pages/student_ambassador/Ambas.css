@@ -303,7 +303,7 @@
   line-height: 1.15;
 }
 
-.figures[data-v-48d664ae]:nth-child(3) {
+.figures:nth-child(3) {
   align-items: flex-end;
 }
 
@@ -473,6 +473,10 @@
     bottom: -50px;
     left: 230px;
   }
+
+  .section-content {
+    margin: 15px;
+  }
 }
 @media (min-width: 500px) {
   .figures .fig--1 {
@@ -496,6 +500,9 @@
     height: 80px;
     width: 80px;
   }
+  .section-content {
+    margin: 15px;
+  }
 }
 
 @media (min-width: 650px) {
@@ -506,6 +513,9 @@
   .figures .fig--4 {
     height: 262px;
     width: 262px;
+  }
+  .section-content {
+    margin: 20px;
   }
 }
 
@@ -646,6 +656,8 @@
 
   .section-content {
     flex-direction: row;
+    margin: 50px;
+    padding: 80px;
   }
   .section-content-column {
     width: calc(52% - 60px);
