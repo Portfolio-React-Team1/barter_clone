@@ -643,12 +643,13 @@
     color: #f2f2f2;
   }
 
-  .Ambas-program h2 {
+  .Ambas-program h2 .section-content h3 {
     font-size: 3em;
     max-width: 550px;
     line-height: 55px;
   }
-  .Ambas-program p {
+
+  .Ambas-program p .section-content p {
     font-size: 1.275em;
     line-height: 40px;
     max-width: 720px;
@@ -657,7 +658,7 @@
   .section-content {
     flex-direction: row;
     margin: 50px;
-    padding: 80px;
+    padding: 14em 2em 6em;
   }
   .section-content-column {
     width: calc(52% - 60px);
