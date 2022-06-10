@@ -10,6 +10,7 @@ import Ambas5 from '../../assets/images/ambassador-5.png';
 import Navbar from '../../components/AmbassadorNavbar/Navbar';
 import Footer from '../../components/Footer/Footer';
 import Programdesc from "./Programdesc";
+import QuestionPart from "./QuestionPart";
 
 console.log(Ambas1);
 
@@ -70,6 +71,7 @@ const Ambassador = () => {
       </p>
     </section>
     <section>
+      <QuestionPart />
       <Programdesc />
     </section>
     <section className="closing closing--ambassador">
