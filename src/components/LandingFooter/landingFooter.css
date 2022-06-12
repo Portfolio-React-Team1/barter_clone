@@ -11,7 +11,7 @@
 }
 .landingFooter__content p{
     color: #333;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
 
 }
@@ -33,13 +33,14 @@
 
 
 
-@media only screen and (max-width: 768px) {
+@media (max-width: 1000px) {
     .landingFooter__content{
         width: 100%;
         padding-top: 150px!important;
         padding: 0;
         text-align: center;
         flex-direction: column-reverse;
+        
     }
     .landing__footer-flutter{
         justify-content: center;
@@ -47,5 +48,12 @@
     }
     .landing__footer-icons{
         margin-top: 10px;
+    }
+}
+
+@media (min-width:1001px) and (max-width:1300px){
+    .landingFooter__content{
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
