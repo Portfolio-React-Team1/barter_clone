@@ -14,7 +14,7 @@ const LandingText = () => {
         <div>
                 <div className='landing__apps'>
                     <a href="/"><FaGooglePlay  className="icon" />Google Play</a>
-                    <a href="/"><AiFillApple  className="icon"/>App Pay</a>
+                    <a href="/"><AiFillApple  className="icon"/>App Store</a>
                 </div>
                 <div className='landing__dot'>
                     <div className='dot1'></div>

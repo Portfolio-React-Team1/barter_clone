@@ -55,5 +55,13 @@
     .landingFooter__content{
         padding-left: 40px;
         padding-right: 40px;
+        /* padding-top: 40%!important; */
+    }
+}
+@media (min-width:1301px){
+    .landingFooter__content{
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 250px!important;
     }
 }

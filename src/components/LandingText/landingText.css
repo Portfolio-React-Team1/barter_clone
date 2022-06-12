@@ -42,8 +42,8 @@
     font-size: 30px;
     align-items: center;
     border: 2px solid #1d222c;
-    border-radius: 3px ;
     white-space: nowrap;
+    border-radius: 3px ;
     color: inherit;
     padding: 10px 30px;
     margin: 10px;
@@ -81,14 +81,14 @@
 }
 
 
-
 @media only screen and (max-width: 600px) {
-    .landing__apps a{
-        padding: 10px 20px;
-        font-size: 20px;
+       .landing__apps a{
+        padding: 10px 10px;
+        font-size: 15px;
         white-space: nowrap;
         margin: 5px;
     }
+    
     .landingText__container{
         height: 140%;
     }
