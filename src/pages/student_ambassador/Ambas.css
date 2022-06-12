@@ -6,11 +6,12 @@
 }
 
 /* main section */
-#hero {
-  margin: 2em 0.5em 0 2em;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+#hero{
+    margin: 2em 0.5em 0 2em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 100px;
 }
 
 .hero-left {
@@ -783,3 +784,140 @@
     left: -560px;
   }
 }
+ /*------- Questionpart styling -----*/
+.que-section{
+  margin-top: 80px;
+  margin-bottom: 70px;
+  padding: 8px;
+  width:100%;
+  color:#242121;
+  background-color:#ffffff;
+  font-size: 20px;
+  }
+  .que-section h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+    margin-bottom: 0.75rem;
+  }
+  .que-section li{
+  list-style: none;
+  margin-top: 10px;
+  text-align: left;
+    }
+    .que-section p{
+      line-height: 30px;
+      text-align: left;
+    }
+    .que-section ul{
+      line-height: 30px;
+      text-align: left;
+    }
+  .section-row{
+  display: flex;
+  margin: 20px 60px;
+  justify-content: space-between;
+  overflow: hidden;
+  width: 100%;
+  }
+  .section-left{
+  width:500px;
+  height: auto;
+  padding: 5px;
+  }
+  .section-left header{
+    font-size: 35px;
+    color: black;
+  }
+  .section-right{
+    width:500px;
+    height: auto;
+    overflow: hidden;
+    padding: 5px;
+    text-align: left;
+  }
+  .mobile-que{
+    display: none;
+    visibility: hidden;
+  
+  }
+  @media(max-width: 680px){
+    .section-row{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .section-left header{
+      font-size: 27px;
+      color: black;
+  
+    }
+   .section-right{
+      display:none;
+      visibility: hidden;
+      
+    }
+    .section-left{
+      width:600px;}
+    .mobile-que{
+      display: block;
+      visibility: visible;
+    
+    }
+  }
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.2rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    body {
+      font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1;
+    }
+  
+  }
+  
+  .title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .title h2 {
+    text-align: center;
+  }
+  
+  .question {
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .question-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: capitalize;
+    padding-bottom: 0.4rem;
+  }
+  .question-btn {
+    font-size: 1.2rem;
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    transition:  all 0.3s linear;
+  }
+  .question-text {
+    padding: 1rem 0 1rem 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+  }
