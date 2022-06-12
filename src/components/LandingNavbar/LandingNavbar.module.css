@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
 .header{
     width: 100%;
-    padding: 10px;
+    /* padding: 10px; */
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 5px 0;
+    padding: 0.5em;
+
 }
 .nav{
-    padding: 20px 0;
+    padding: 1.25em 8em;
     align-items: center;
     display: flex;
     justify-content: space-between;
+
 }
 .container{
     width: 1440px;
@@ -28,6 +37,10 @@
     display: flex;
     align-items: center;
     list-style: none;
+}
+
+.apply li {
+    color: #5c5c5c;
 }
 .anchor{
     text-decoration: none;

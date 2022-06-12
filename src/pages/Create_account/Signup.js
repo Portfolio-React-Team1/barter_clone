@@ -93,12 +93,12 @@ const Signup = () => {
             <div className='form-row'>
             <div className='form-div1'>
               <label className='label'>FIRST NAME</label>
-              <input type="text"  className='input' value={formValues.firstname} onChange={handleChange} />
+              <input type="text"  className='input' value={formValues.firstname} onChange={handleChange} required/>
             </div>
 
             <div className='form-div2'>
               <label className='label'>LAST NAME</label>
-              <input type="text"  className='input' value={formValues.lastname} onChange={handleChange} />
+              <input type="text"  className='input' value={formValues.lastname} onChange={handleChange} required/>
             </div>
             </div>
 
@@ -106,12 +106,12 @@ const Signup = () => {
             <div className='form-row'>
             <div className='form-div1'>
               <label className='label'>EMAIL ADDRESS</label>
-              <input type="email"  className='input' value={formValues.email} onChange={handleChange} />
+              <input type="email"  className='input' value={formValues.email} onChange={handleChange} required/>
             </div>
 
             <div className='form-div2'>
               <label className='label'>PHONE NUMBER</label>
-              <input type="tel"  className='input' value={formValues.telephone} onChange={handleChange} />
+              <input type="tel"  className='input' value={formValues.telephone} onChange={handleChange} required/>
             </div>
             </div>
 
@@ -119,12 +119,12 @@ const Signup = () => {
             <div className='form-row'>
             <div className='form-div1'>
               <label className='label'>PASSWORD</label>
-              <input type="password"  className='input' value={formValues.password} onChange={handleChange} />
+              <input type="password"  className='input' value={formValues.password} onChange={handleChange} required/>
             </div>
 
             <div className='form-div2'>
               <label className='label'>CONFIRM PASSWORD</label>
-              <input type="password"  className='input' value={formValues.confirm_password} onChange={handleChange} />
+              <input type="password"  className='input' value={formValues.confirm_password} onChange={handleChange} required/>
             </div>
             </div>
 
@@ -132,7 +132,7 @@ const Signup = () => {
             <div className='form-row'>
             <div className='form-div1'>
               <label className='label'>COUNTRY</label>
-              <select id="country" name="country" className='select' value={formValues.country} onChange={handleChange} >
+              <select id="country" name="country" className='select' value={formValues.country} onChange={handleChange}required >
                   <option>Select country</option>
                   <option value="AF">Afghanistan</option>
                   <option value="AX">Aland Islands</option>

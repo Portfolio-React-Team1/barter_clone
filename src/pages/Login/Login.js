@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import './login.css'
-import Logo from './logo.png'
+import Logo from '../../assets/images/logo.png'
 // import { ToastContainer, toast } from "react-toastify";
 // import { Link } from "react-router-dom";
 

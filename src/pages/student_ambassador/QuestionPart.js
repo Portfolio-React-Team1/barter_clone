@@ -5,6 +5,7 @@ import SingleQuestion from "./Question";
 import data from "./data";
 
 const QuestionPart = () => {
+   // eslint-disable-next-line
   const [questions, setQuestions] = useState(data);
   const style = {
     marginRight: "7px",
@@ -39,7 +40,7 @@ const QuestionPart = () => {
               <FaCheck style={style} />
               Currently enrolled in a college or university in a country where
               you can use Barter.
-              <a href="#">(See list of countries)</a>
+              <a href="/#">(See list of countries)</a>
             </li>
             <li>
               <FaCheck style={style} /> Pursuing an undergraduate, postgraduate,

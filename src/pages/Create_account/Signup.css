@@ -1,19 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
 
 .container {
-  background-color: #ebebeb;
+  background-color: whitesmoke;
   font-family: 'Joan', serif;
   font-weight: 400;
   display: flex;
   justify-content: space-around;
   height: 1360px;
   padding-top: 8.75em;
-  font-size: 14px;
+  font-size: 15px;
+}
+
+.account {
+  margin: 0.5em 0 0 0;
 }
 
 .account-container {
   height: 870px;
-  max-width: 700px;
+  max-width: 650px;
   /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
@@ -28,7 +32,7 @@
 
 .header {
   /* border: 1px solid red; */
-  height: 130px;
+  height: 110px;
   color: #2B3A49;
   font-weight: 700;
   font-size: 1.5rem;
@@ -44,6 +48,7 @@
   border-radius: 6px;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgb(180, 180, 180);
+  margin: 0;
 }
 
 .logo {
@@ -55,7 +60,7 @@
 }
 
 .form {
-  margin: 3em 4.5em 3em 4.5em;
+  margin: 1.5em 4.5em 3em 4.5em;
   /* border: 1px solid black; */
   height: 444px;
   display: flex;
@@ -81,9 +86,9 @@
   flex-direction: column;
 }
 
-/* .form-div2 {
-  margin-left: 10%;
-} */
+.form-div2 {
+  margin-left: 2em;
+}
 
 @media (max-width:1000px) {
   .form-row {
@@ -106,6 +111,17 @@
 
   .form-div2 {
     margin-top: 1em;
+    margin-left: 0em;
+  }
+
+  .account-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: none;
+  }
+
+  .header {
+    margin-bottom: 1.25em;
   }
 }
 
@@ -113,7 +129,7 @@
   color: #546278B3;
   text-transform: capitalize;
   font-weight: 700;
-  font-size: 0.753125rem;
+  font-size: 0.653125rem;
   margin-bottom: 0.4em;
   text-align: left;
   /* font-family: sans-serif; */
@@ -131,7 +147,7 @@
 }
 
 .select {
-  height: 58px;
+  height: 55px;
   border: none;
   border-bottom: 1px solid lightgrey;
   font-size: 1.05em;
@@ -166,10 +182,22 @@
 
 @media (max-width:400px) {
   .submit {
-    font-size: 0.575rem;
+    font-size: 0.675rem;
   }
 
   .header {
     font-size: 1.1rem;
+    margin-bottom: 1.25em;
   }
+
+  .account-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: none;
+  }
+
+  .form-div2 {
+    margin-left: 0em;
+  }
+
 }
