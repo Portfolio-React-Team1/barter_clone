@@ -14,18 +14,20 @@ const Navbar = () => {
   return (
       <>
         <header className={styles.header}>
-            <nav className={styles.nav}>
-            <Link to="/" ><div className={styles.logo}>
-                   <img src={logo} alt="/" />
-                </div></Link>
-                <div onClick={handleNav}  className='menu_btn'>
-                   {showNav ? (<img className={styles.icon} src={menuIcon} alt="/"/>): (<img className={styles.icon} src={menuXIcon} alt="/"/>)} 
-                </div>
-                <ul className={styles.apply}>
-                    <li  className={styles.barter}><a className={styles.anchor} href='/'>About Barter</a></li>
-                    <li className='navbar__apply'>Apply Now</li>
-                </ul>
-            </nav>
+            <div className={styles.container}>
+                <nav className={styles.nav}>
+                <Link to="/" ><div className={styles.logo}>
+                    <img src={logo} alt="/" />
+                    </div></Link>
+                    <div onClick={handleNav}  className='menu_btn'>
+                    {showNav ? (<img className={styles.icon} src={menuIcon} alt="/"/>): (<img className={styles.icon} src={menuXIcon} alt="/"/>)} 
+                    </div>
+                    <ul className={styles.apply}>
+                        <li  className={styles.barter}><a className={styles.anchor} href='/'>About Barter</a></li>
+                        <li className='navbar__apply'>Apply Now</li>
+                    </ul>
+                </nav>
+            </div>
 
     
 </header>

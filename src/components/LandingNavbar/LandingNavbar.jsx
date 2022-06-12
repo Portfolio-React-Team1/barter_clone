@@ -14,20 +14,22 @@ const Navbar = () => {
   return (
       <>
         <header className={styles.header}>
-            <nav className={styles.nav}>
-            <Link to="/" ><div className={styles.logo}>
-                   <img src={logo} alt="/" />
-                </div></Link>
-                <div onClick={handleNav}  className='menu_btn'>
-                   {showNav ? (<img className={styles.icon} src={menuIcon} alt="/"/>): (<img className={styles.icon} src={menuXIcon} alt="/"/>)} 
-                </div>
-                <ul className={styles.apply}>
-                    <Link to='/student-ambassador'><li  className="nav__links">Student Ambassador</li></Link>
-                    <Link to='/'><li className='nav__links'>Support</li></Link>
-                    <Link to='/login'><li className='nav__links'>Login</li></Link>
-                    <Link to='/signup'><li className='nav__links'>Create Account</li></Link>
-                </ul>
-            </nav>
+            <div className={styles.container}>
+                <nav className={styles.nav}>
+                <Link to="/" ><div className={styles.logo}>
+                    <img src={logo} alt="/" />
+                    </div></Link>
+                    <div onClick={handleNav}  className='menu_btn'>
+                    {showNav ? (<img className={styles.icon} src={menuIcon} alt="/"/>): (<img className={styles.icon} src={menuXIcon} alt="/"/>)} 
+                    </div>
+                    <ul className={styles.apply}>
+                        <Link to='/student-ambassador'><li  className="nav__links">Student Ambassador</li></Link>
+                        <Link to='/'><li className='nav__links'>Support</li></Link>
+                        <Link to='/login'><li className='nav__links'>Login</li></Link>
+                        <Link to='/signup'><li className='nav__links'>Create Account</li></Link>
+                    </ul>
+                </nav>
+            </div>
 
     
 </header>

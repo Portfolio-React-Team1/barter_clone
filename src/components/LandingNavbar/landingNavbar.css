@@ -8,10 +8,6 @@
     overflow: hidden;
     z-index: 999999999;
 }
-.barter{
-    font-size: 18px;
-    text-align: center;
-}
 .mobile__nav-container ul{
     position: absolute;
     left: 50%;
@@ -28,18 +24,7 @@
     list-style: none;
     text-align: center;
 }
-.navbar__apply{
-    background-color: #f5a623;
-    border-radius: 4px;
-    color: #12122c;
-    cursor: pointer;
-    font-size: 16px;
-    font-weight: 800;
-    line-height: 19px;
-    text-decoration: none;
-    padding: 15px 43px;
-    text-transform: capitalize!important;
-}
+
 nav a{
     text-decoration: none;
 }
@@ -47,6 +32,8 @@ nav a{
     padding:0 30px;
     text-transform: uppercase;
     text-align: center;
+    font-weight: 400;
+    font-size: 15px;
     cursor: pointer;
     transition: .10s ease-in;
 }
