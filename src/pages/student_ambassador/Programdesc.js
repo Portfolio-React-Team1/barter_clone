@@ -4,10 +4,12 @@ import Ambas6 from "../../assets/images/ambassador-6.png";
 import Ambas7 from "../../assets/images/ambassador-7.png";
 import Ambas8 from "../../assets/images/ambassador-8.png";
 import Ambas9 from "../../assets/images/ambassador-9.png";
+import QuestionPart from "./QuestionPart";
 
 function Programdesc() {
   return (
     <div className="row section-content">
+      <QuestionPart />
       <div className=" col section-content-column wider ">
         <h3 className="heading"> What's in it for you?</h3>
         <p className="paragraph">
