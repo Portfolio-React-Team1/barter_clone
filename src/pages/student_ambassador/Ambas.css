@@ -219,6 +219,13 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.section-content {
+  background-image: url(../../assets/background_images/ambassadorbg.svg),
+    url(../../assets/background_images/back-ground.svg);
+  background-repeat: no-repeat, no-repeat;
+  overflow: hidden;
+  position: relative;
+}
 .section-content-column {
   padding: 10px;
 }
@@ -658,7 +665,9 @@
   .section-content {
     flex-direction: row;
     margin: 50px;
-    padding: 14em 2em 6em;
+    background-position: 0 0, 110% 125%;
+    background-size: 54%, 85%;
+    padding: 237px 30px 315px;
   }
   .section-content-column {
     width: calc(52% - 60px);
