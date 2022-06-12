@@ -1,0 +1,65 @@
+
+.landingPage__container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 40px;
+    background-size: cover;
+    background-position: center;
+    padding: 20px 0;
+    height: 105%;
+}
+
+/* for mobile */
+
+@media only screen and (min-width: 201px) {
+    .landingPage__container{
+        top: 100px;
+        height: 140%;
+    }
+    
+}
+
+@media only screen and (min-width: 351px) {
+    .landingPage__container{
+        top: 80px;
+        height: 120%;
+    }
+}
+
+@media only screen and (min-width: 385px) {
+    .landingPage__container{
+        top: 75px;
+        height: 120%;
+    }
+    
+}
+
+@media only screen and (min-width: 570px) {
+    .landingPage__container{
+        top: 50px;
+        height: 110%;
+    }
+    
+}
+@media only screen and (min-width: 1000px) {
+    .landingPage__container{
+        top: 40px;
+        height: 100%;
+    }
+    
+}
+
+@media only screen and (min-width: 1100px) {
+    .landingPage__container{
+        top: 30px;
+    }
+    
+}
+
+
+
+
+
+
