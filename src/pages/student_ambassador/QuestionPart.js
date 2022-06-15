@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import {FaCheck, FaChevronDown,FaChevronRight} from 'react-icons/fa';
+import {FaCheck} from 'react-icons/fa';
 import './Ambas.css';
 import SingleQuestion from './Question';
 import data from './data';
@@ -7,8 +7,14 @@ import data from './data';
 
 const QuestionPart = () => {
   const [questions,setQuestions] = useState(data);
-  const style={marginRight:"7px" , borderRadius:"50%", backgroundColor:"#deeded",
-           fontWeight:"bold", color:"#167c80", padding:"5px", fontSize:"16px", marginTop:"9px"}
+  const style={marginRight:"7px" ,
+            borderRadius:"50%",
+            backgroundColor:"#deeded",
+            fontWeight:"bold",
+            color:"#167c80", 
+            padding:"8px", 
+            fontSize:"20px",
+             marginTop:"9px"}
 
   return (
       <section className='que-section'>
@@ -32,14 +38,14 @@ const QuestionPart = () => {
               </div>
 
                 <div className='section-right'>
-                    <h3>What will Ambassadors do?</h3>   
+                    <h2>What will Ambassadors do?</h2>   
                       <h3> Ambassadors are required to:</h3>
                          <ul>
                             <li><FaCheck style={style}/>Commit at least 6 months of their academic year to the ambassador program.</li>
                             <li><FaCheck style={style}/>Commit at least a minimum of an hour per week for meetings or the training program.</li>
                             <li><FaCheck style={style}/>Be reliable and punctual</li>
                        </ul>
-                       <h3>How you will spend your time as a Barter Ambassador</h3>
+                       <h2>How you will spend your time as a Barter Ambassador</h2>
                             <ul>
                             <li><FaCheck style={style}/>Get other students to sign up on Barter.</li>
                             <li><FaCheck style={style}/>Promote barter at on-campus events when such events are held at your university.</li>

@@ -6,8 +6,14 @@ import {FaCheck,FaChevronDown,FaChevronRight} from 'react-icons/fa';
 
 const Question = ({title,answers}) => {
   const [showInfo,setShowInfo]= useState(false);
-  const style={ marginRight:"7px" , borderRadius:"50%", backgroundColor:"#deeded",
-         fontWeight:"bold", color:"#167c80", padding:"5px", fontSize:"16px", marginTop:"9px"}
+  const style={ marginRight:"7px",
+               borderRadius:"50%",
+                backgroundColor:"#deeded",
+               fontWeight:"bold",
+                color:"#167c80",
+                 padding:"8px",
+                  fontSize:"20px", 
+                  marginTop:"9px"}
 
   return (
     <article className='question'>
