@@ -12,13 +12,13 @@ const Question = ({title,answers}) => {
                fontWeight:"bold",
                 color:"#167c80",
                  padding:"8px",
-                  fontSize:"20px", 
+                  fontSize:"27px", 
                   marginTop:"9px"}
 
   return (
     <article className='question'>
        <header className='question-title'>
-          <h3>{title}</h3>
+          <h2>{title}</h2>
             <button type='button' className='question-btn'
                 onClick={()=>{
                  setShowInfo(!showInfo);
@@ -29,9 +29,11 @@ const Question = ({title,answers}) => {
            </header>
   
             <div className="question-text">
-               {showInfo &&  answers.map((answer)=>(
-                    <li><FaCheck style={style}/>{answer.que}</li>
-             
+              
+               {showInfo &&  answers.map((answer,index)=>(
+                 <ul key={index}>
+                     <li><FaCheck style={style}/>{answer.que}</li>
+                    </ul>
                      ))
 
                  }

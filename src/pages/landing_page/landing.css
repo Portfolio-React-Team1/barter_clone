@@ -8,41 +8,58 @@
     background-size: cover;
     background-position: center;
     padding: 20px 0;
-    height: 105%;
+    height: 900px;
 }
 
 /* for mobile */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 201px) {
     .landingPage__container{
-        top: 90px;
-        height: 130%;
-    }
-    
-}
-@media only screen and (min-width: 600px) {
-    .landingPage__container{
-        top: 50px;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    .landingPage__container{
-        top: 60px;
+        top: 100px;
+        height: 140%;
     }
     
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 351px) {
     .landingPage__container{
-        top: 50px;
+        top: 80px;
+        height: 120%;
+    }
+}
+
+@media only screen and (min-width: 385px) {
+    .landingPage__container{
+        top: 75px;
+        height: 120%;
     }
     
 }
-@media only screen and (min-width: 1200px) {
+
+@media only screen and (min-width: 570px) {
+    .landingPage__container{
+        top: 50px;
+        height: 110%;
+    }
+    
+}
+@media only screen and (min-width: 1000px) {
     .landingPage__container{
         top: 40px;
+        height: 115%;
     }
     
 }
+
+@media only screen and (min-width: 1100px) {
+    .landingPage__container{
+        top: 30px;
+    }
+    
+}
+
+
+
+
+
 

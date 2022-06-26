@@ -42,6 +42,7 @@
     font-size: 30px;
     align-items: center;
     border: 2px solid #1d222c;
+    white-space: nowrap;
     border-radius: 3px ;
     color: inherit;
     padding: 10px 30px;
