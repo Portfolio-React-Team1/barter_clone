@@ -1,40 +1,38 @@
-import React, { useState } from "react";
-import { FaCheck } from "react-icons/fa";
-import "./Ambas.css";
-import SingleQuestion from "./Question";
-import data from "./data";
+import React,{useState} from 'react';
+import {FaCheck} from 'react-icons/fa';
+import './Ambas.css';
+import SingleQuestion from './Question';
+import data from './data';
+
 
 const QuestionPart = () => {
-   // eslint-disable-next-line
-  const [questions, setQuestions] = useState(data);
-  const style = {
-    marginRight: "7px",
-    borderRadius: "50%",
-    backgroundColor: "#deeded",
-    fontWeight: "bold",
-    color: "#167c80",
-    padding: "5px",
-    fontSize: "16px",
-    marginTop: "9px",
-  };
+  const [questions,setQuestions] = useState(data);
+  const style={marginRight:"7px" ,
+            borderRadius:"50%",
+            backgroundColor:"#deeded",
+            fontWeight:"bold",
+            color:"#167c80", 
+            padding:"8px", 
+            fontSize:"27px",
+             marginTop:"9px"}
 
   return (
     <section className="que-section">
       <div className="section-row">
         <div className="section-left">
-          <header>
+        
             <h1>
               All your questions,
               <br /> answered.
             </h1>
-          </header>
+          
           <p>
             This opportunity is currently open to students enrolled in
             university degree programs. As an undergrad, postgrad or PhD
             student, you can join the Barter Ambassador program at your school,
             refer others, and make money.
           </p>
-          <h3>Barter Ambassadors must be:</h3>
+          <h2>Barter Ambassadors must be:</h2>
           <ul>
             <li>
               <FaCheck style={style} />
@@ -58,8 +56,8 @@ const QuestionPart = () => {
         </div>
 
         <div className="section-right">
-          <h3>What will Ambassadors do?</h3>
-          <h3> Ambassadors are required to:</h3>
+          <h2>What will Ambassadors do?</h2>
+          <h2> Ambassadors are required to:</h2>
           <ul>
             <li>
               <FaCheck style={style} />
@@ -76,7 +74,7 @@ const QuestionPart = () => {
               Be reliable and punctual
             </li>
           </ul>
-          <h3>How you will spend your time as a Barter Ambassador</h3>
+          <h2>How you will spend your time as a Barter Ambassador</h2>
           <ul>
             <li>
               <FaCheck style={style} />
@@ -111,5 +109,6 @@ const QuestionPart = () => {
     </section>
   );
 };
+
 
 export default QuestionPart;
