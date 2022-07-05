@@ -785,14 +785,15 @@
     left: -560px;
   }
 }
-/*------- Questionpart styling -----*/
+
+/*------- Question part styling -----*/
+
 .que-section {
   margin-top: 80px;
   margin-bottom: 70px;
   padding: 8px;
   width: 100%;
   color: #242121;
-  background-color: #ffffff;
   font-size: 20px;
 }
 .que-section h1,
@@ -817,7 +818,7 @@ h4 {
 }
 .section-row {
   display: flex;
-  margin: 20px 60px;
+  margin: 10px;
   justify-content: space-between;
   overflow: hidden;
   width: 100%;
@@ -827,8 +828,8 @@ h4 {
   height: auto;
   padding: 5px;
 }
-.section-left header {
-  font-size: 35px;
+.section-left h1 {
+  font-size: 38px;
   color: black;
 }
 .section-right {
@@ -842,56 +843,53 @@ h4 {
   display: none;
   visibility: hidden;
 }
-@media (max-width: 680px) {
-  .section-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .section-left header {
-    font-size: 27px;
-    color: black;
-  }
-  .section-right {
-    display: none;
-    visibility: hidden;
-  }
-  .section-left {
-    width: 600px;
-  }
-  .mobile-que {
-    display: block;
-    visibility: visible;
-  }
-}
-@media screen and (min-width: 800px) {
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    font-size: 1.2rem;
-  }
-  h4 {
-    font-size: 1rem;
-  }
-  body {
-    font-size: 1rem;
-  }
-  h1,
-  h2,
-  h3,
-  h4 {
-    line-height: 1;
-  }
+
+  @media(max-width: 680px){
+    .section-row{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 7px;
+    }
+    .section-left h1{
+      font-size: 40px;
+      color: black;
+  
+    }
+   .section-right{
+      display:none;
+      visibility: hidden;
+      
+    }
+    .section-left{
+      width:100%;}
+
+    .mobile-que{
+      display: block;
+      visibility: visible;
+    
+    }
+
 }
 
+@media screen and (min-width: 800px) {
+  .que-section {
+    margin-top: 20px;
+    margin-bottom: 38px;
+    padding: 2px;
+    width: 100%;
+
+  }
+  .section-row{
+    margin: 2px;
+  }
+
+}
 .title {
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
 .title h2 {
   text-align: center;
 }
@@ -904,13 +902,12 @@ h4 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  text-transform: capitalize;
   padding-bottom: 0.4rem;
 }
-.question-btn {
-  font-size: 1.2rem;
+.question-btn{
+  font-size: 1rem;
   background: transparent;
-  border-color: transparent;
+  border: none;
   cursor: pointer;
   transition: all 0.3s linear;
 }
