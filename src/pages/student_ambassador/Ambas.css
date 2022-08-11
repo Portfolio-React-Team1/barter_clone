@@ -189,7 +189,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 9em 2em 3em;
+  padding: 9em 0;
 }
 .Ambas-program h2,
 .Ambas-program p {
@@ -204,6 +204,7 @@
   margin-bottom: 20px;
 }
 .Ambas-program p {
+  width: 70%;
   font-size: 1.2em;
   font-weight: 500;
   line-height: 34px;
@@ -217,7 +218,7 @@
 .section-content {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
 }
 .section-content {
@@ -228,7 +229,7 @@
   position: relative;
 }
 .section-content-column {
-  padding: 10px;
+  padding: 50px;
 }
 .section-content h3 {
   font-size: 50px;
@@ -275,6 +276,11 @@
   left: 0;
   position: absolute;
   top: 0;
+  margin-top: 6px;
+  margin-left: -30px;
+  background-size: 10px;
+  height: 16px;
+  width: 16px;
 }
 .section-content .figures {
   display: flex;
@@ -669,7 +675,6 @@
     margin: 50px;
     background-position: 0 0, 110% 125%;
     background-size: 54%, 85%;
-    padding: 237px 30px 315px;
   }
   .section-content-column {
     width: calc(52% - 60px);
@@ -697,6 +702,7 @@
     padding-left: 40px;
   }
   .section-content .list li:before {
+    margin-left: 0px;
     background-size: 16px;
     height: 24px;
     width: 24px;
@@ -788,12 +794,10 @@
 /*------- Questionpart styling -----*/
 .que-section {
   margin-top: 80px;
-  margin-bottom: 70px;
+  margin-bottom: 50px;
   padding: 8px;
-  width: 100%;
   color: #242121;
   background-color: #ffffff;
-  font-size: 20px;
 }
 .que-section h1,
 h2,
@@ -801,6 +805,7 @@ h3,
 h4 {
   line-height: 1;
   margin-bottom: 0.75rem;
+  font-size: 50px;
 }
 .que-section li {
   list-style: none;
@@ -808,6 +813,8 @@ h4 {
   text-align: left;
 }
 .que-section p {
+  font-size: 16px;
+  margin-bottom: 1em;
   line-height: 30px;
   text-align: left;
 }
@@ -817,24 +824,15 @@ h4 {
 }
 .section-row {
   display: flex;
-  margin: 20px 60px;
   justify-content: space-between;
-  overflow: hidden;
-  width: 100%;
 }
 .section-left {
-  width: 500px;
-  height: auto;
-  padding: 5px;
-}
-.section-left header {
-  font-size: 35px;
-  color: black;
+  width: 50%;
+  margin-right: 100px;
+  padding: 30px;
 }
 .section-right {
-  width: 500px;
-  height: auto;
-  overflow: hidden;
+  width: 50%;
   padding: 5px;
   text-align: left;
 }
@@ -842,22 +840,21 @@ h4 {
   display: none;
   visibility: hidden;
 }
-@media (max-width: 680px) {
+@media (max-width: 786px) {
   .section-row {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    /* margin: 0 700px 0 50px; */
   }
-  .section-left header {
-    font-size: 27px;
-    color: black;
-  }
+
   .section-right {
     display: none;
     visibility: hidden;
   }
   .section-left {
-    width: 600px;
+    width: 100%;
+    margin-right: 0px;
   }
   .mobile-que {
     display: block;

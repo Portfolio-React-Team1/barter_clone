@@ -23,12 +23,11 @@ const QuestionPart = () => {
       <div className="section-row">
         <div className="section-left">
           <header>
-            <h1>
-              All your questions,
-              <br /> answered.
-            </h1>
+            <h3>
+              All your questions, answered.
+            </h3>
           </header>
-          <p>
+          <p className="all-questions-p">
             This opportunity is currently open to students enrolled in
             university degree programs. As an undergrad, postgrad or PhD
             student, you can join the Barter Ambassador program at your school,
