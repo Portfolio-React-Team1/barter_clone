@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { Link } from 'react-router-dom'
 import './Signup.css'
 
 const Signup = () => {
@@ -398,7 +399,7 @@ const Signup = () => {
             <input type='submit' className='submit' value='Create account'>
             </input>
 
-            <p className='conclusion'>Already have an account?<span className='login-link'><a href='/login'>Login</a></span></p>
+            <p className='conclusion'>Already have an account?<span className='login-link'><Link to='/login'> Login</Link></span></p>
           </form>
         </div>
 

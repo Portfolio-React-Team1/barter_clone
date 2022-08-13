@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from 'react-router-dom';
 import './Forgot.css'
 import Logo from './logo.png'
@@ -44,9 +44,9 @@ function Forgotpassword() {
                 <div className="account__head">
 
                     <div className="account__head__logo">
-                        <img style={{ width: '130px', height: '30px' }} src={Logo} alt='Barter logo'></img>
+                        <Link to='/'><img style={{ width: '130px', height: '30px' }} src={Logo} alt='Barter logo'></img></Link>
                     </div>
-                    <h1 >Forgot Password?</h1>
+                    <h1>Forgot Password?</h1>
                 </div>
 
 
