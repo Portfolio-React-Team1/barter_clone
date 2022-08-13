@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Forgot.css";
+
 import Logo from "../../assets/images/logo.png";
+
+
 // import { ToastContainer, toast } from "react-toastify";
 // import { Link } from "react-router-dom";
 
@@ -40,6 +43,7 @@ function Forgotpassword() {
                 alt="Barter logo"
                 />
             </Link>
+
           </div>
           <h1>Forgot Password?</h1>
         </div>

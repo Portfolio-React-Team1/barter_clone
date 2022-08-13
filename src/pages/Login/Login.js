@@ -40,6 +40,7 @@ function Login() {
               alt="Barter logo"
               />
             </Link>
+
           </div>
           <h1>Login to your barter account</h1>
         </div>
@@ -76,9 +77,11 @@ function Login() {
                 alignItems: "flex-start",
               }}
             >
+
               <Link to='/Forgotpassword'>
                 <p className="already"> Forgot password?</p>
               </Link>
+
             </div>
             <Link to="/">
               {" "}
