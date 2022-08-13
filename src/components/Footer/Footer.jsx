@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../../assets/images/transparentLogo.png'
 import './footer.css'
 
@@ -14,7 +15,9 @@ const Footer = () => {
         <div className='footer__container'>
             <div className='footer__content'>
                 <div className='footer__list'>
-                    <img src={logo} alt="/" />
+                    <Link to='/'>
+                        <img src={logo} alt="/" />
+                    </Link>
                 </div>
                 <div className='footer__list'>
                     <h2>Product</h2>

@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Forgot.css";
-import Logo from "./logo.png";
+
+import Logo from "../../assets/images/logo.png";
+
+
 // import { ToastContainer, toast } from "react-toastify";
 // import { Link } from "react-router-dom";
 
@@ -33,11 +36,14 @@ function Forgotpassword() {
       <div className="auth_signup-container">
         <div className="account__head">
           <div className="account__head__logo">
-            <img
-              style={{ width: "130px", height: "30px" }}
-              src={Logo}
-              alt="Barter logo"
-            ></img>
+            <Link to='/'>
+                <img
+                style={{ width: "130px", height: "30px" }}
+                src={Logo}
+                alt="Barter logo"
+                />
+            </Link>
+
           </div>
           <h1>Forgot Password?</h1>
         </div>

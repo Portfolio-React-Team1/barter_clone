@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { Link } from 'react-router-dom'
 import './Signup.css'
 
 const Signup = () => {
@@ -73,12 +74,16 @@ const Signup = () => {
     return errors;
   }
 
+  const home = () => {
+    window.location = '/';
+  }
+
   return (
     <div className='container'>
       <div className='account-container'>
         {/* Header */}
         <div className='header'>
-          <div className='logo'>
+          <div className='logo' onClick={home}>
 
           </div>
 
@@ -398,7 +403,7 @@ const Signup = () => {
             <input type='submit' className='submit' value='Create account'>
             </input>
 
-            <p className='conclusion'>Already have an account?<span className='login-link'><a href='/login'>Login</a></span></p>
+            <p className='conclusion'>Already have an account?<span className='login-link'><Link to='/login'> Login</Link></span></p>
           </form>
         </div>
 
