@@ -74,12 +74,16 @@ const Signup = () => {
     return errors;
   }
 
+  const home = () => {
+    window.location = '/';
+  }
+
   return (
     <div className='container'>
       <div className='account-container'>
         {/* Header */}
         <div className='header'>
-          <div className='logo'>
+          <div className='logo' onClick={home}>
 
           </div>
 
