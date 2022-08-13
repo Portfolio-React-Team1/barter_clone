@@ -33,11 +33,14 @@ function Login() {
       <div className="auth_signup-container">
         <div className="account__head">
           <div className="account__head__logo">
-            <img
+            <Link to='/'>
+              <img
               style={{ width: "130px", height: "30px" }}
               src={Logo}
               alt="Barter logo"
-            ></img>
+              />
+            </Link>
+
           </div>
           <h1>Login to your barter account</h1>
         </div>
@@ -74,9 +77,11 @@ function Login() {
                 alignItems: "flex-start",
               }}
             >
-              <a href="Forgotpassword">
+
+              <Link to='/Forgotpassword'>
                 <p className="already"> Forgot password?</p>
-              </a>
+              </Link>
+
             </div>
             <Link to="/">
               {" "}
